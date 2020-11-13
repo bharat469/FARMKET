@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: none;
+  }
+  :root{
+    --primarycolor :#61b833;
+  }
+  
+  
+  .wrapper {
+    width: 1170px;
+    margin: 20px auto;
+  }
+  
+  nav {
+    position: absolute;
+    font-size: 16px;
+    background: var(--primarycolor);
+    
+  }
+  
+  nav>ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  nav a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav ul li {
+    color: #fff;
+    list-style: none;
+    transition: 0.5s;
+  }
+  
+  ul img {
+    width: 85%;
+  }
+  
+  nav>ul>li>a {
+    padding: 15px 25px;
+  }
+  
+  nav>ul>li.dropdown>a:after {
+    position: relative;
+    float: right;
+    content: '';
+    margin-left: 10px;
+    margin: 8px;
+  }
+  
+  nav>ul>li:hover {
+    background: #668fc5;
+  }
+  
+  nav ul.menu-area {
+    padding: 40px 40px 0 40px;
+    background: #fff;
+    text-align: left;
+    border-top: 5px solid #164c82;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    top: -9999px;
+    left: 0;
+  }
+  
+  nav ul li:hover ul.menu-area {
+    top: 100%;
+  }
+  
+  nav ul.menu-area ul {
+    width: 20%;
+    margin-bottom: 40px;
+    color: #252626;
+  }
+  
+  nav ul.menu-area ul li a {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 600;
+  }
+  
+  nav ul.menu-area ul a img {
+    width: 110%;
+  }
+  
+  nav ul.menu-area h4 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  nav ul.menu-area ul li {
+    display: block;
+  }
+  
+  nav uL.menu-area ul li a {
+    margin-top: 10px;
+    color: #000;
+    text-transform: none;
+  }
+  
+  nav ul.menu-area ul li a:hover {
+    background: #a8dadc
+  }
+  
+  ul h3{
+    font-size: 30px;
+  }
+  
+  .heading{
+    color: var(--primarycolor);
+  }
+  
+  
